@@ -1,8 +1,9 @@
 var express = require('express');
+var fs = require('fs');
 
 var app = express.createServer(express.logger());
 
-var msg = fs.readFileSync("index.html").toString();
+var msg = fs.readFileSyXSnc("index.html").toString();
 
 //var msg = buf.toString();
 
